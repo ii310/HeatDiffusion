@@ -17,3 +17,8 @@ As someone who has always been passionate about physics, I wanted to bring toget
 This project started with the idea of ​​visualizing what physics, which I once saw as just formulas, might look like in the real world by using Matplotlib.
 
 By turning thermal diffusion into an interactive canvas, I aimed to make the simulation more playfull. This approach allowed me to explore the artistic potential of numerical methods, while also implementing practical extensions like saving temperature matrices and building a user gallery system using TinyDB and .npy properties
+
+# Creative Collaboration
+By enabling users to draw directly on the simulation grid, the project promotes creative engagement in addition to simulating physics.
+
+With mouse movements, users add heat almost like using their hands, creating thermal patterns that resemble works of art.
