@@ -32,12 +32,16 @@ The integration of TinyDB enables a simple but effective way to store user-gener
 A gallery view of all saved heat visualizations enables users to revisit and look into their simulations graphically.
 A creative-scientific feedback loop is supported by this feature, where visual results stimulate additional engagement.
 
-# Create The Environment and Install The Necessary Libraries
+
+# ⚙️ Create The Environment and Install Dependencies
+
+```bash
 python -m venv env
-source env/bin/activate   # macOS/Linux
-# .\env\Scripts\activate   # Windows
+source env/bin/activate     # macOS/Linux
+.\env\Scripts\activate      # Windows
 
 pip install -r requirements.txt
+``` 
 
 # How To Use
 To start: python heat_diffusion.py
