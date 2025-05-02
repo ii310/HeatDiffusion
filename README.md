@@ -44,15 +44,19 @@ pip install -r requirements.txt
 ``` 
 
 # How To Use
-To start: python heat_diffusion.py
+To start:
+```bash
+python heat_diffusion.py
+```
 
 You can draw by clicking with the mouse.
 When you press the w key, a name is asked and saved to the database.
 The SAVE and STOP buttons at the bottom right can also be used.
 
 To View the Gallery:
+```bash
 python heat_gallery.py
-
+```
 All thermal drawnings are displayed with the user's name and time information.
 
 
