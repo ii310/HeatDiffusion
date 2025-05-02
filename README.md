@@ -22,3 +22,35 @@ By turning thermal diffusion into an interactive canvas, I aimed to make the sim
 By enabling users to draw directly on the simulation grid, the project promotes creative engagement in addition to simulating physics.
 
 With mouse movements, users add heat almost like using their hands, creating thermal patterns that resemble works of art.
+
+# Data Handling and Persistence
+Each drawing (temperature matrix) can be named and saved using lightweight serialization with .npy and .csv formats.
+
+The integration of TinyDB enables a simple but effective way to store user-generated content, combining scientific computing with database logic.
+
+# Visual Gallery
+A gallery view of all saved heat visualizations enables users to revisit and look into their simulations graphically.
+A creative-scientific feedback loop is supported by this feature, where visual results stimulate additional engagement.
+
+# Create The Environment and Install The Necessary Libraries
+python -m venv env
+source env/bin/activate   # macOS/Linux
+# .\env\Scripts\activate   # Windows
+
+pip install -r requirements.txt
+
+# How To Use
+To start: python heat_diffusion.py
+
+You can draw by clicking with the mouse.
+When you press the w key, a name is asked and saved to the database.
+The SAVE and STOP buttons at the bottom right can also be used.
+
+To View the Gallery:
+python heat_gallery.py
+
+All thermal drawnings are displayed with the user's name and time information.
+
+
+
+
