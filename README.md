@@ -15,4 +15,5 @@ By implementing finite difference techniques to discretize the continuous equati
 # Why I Built This 
 As someone who has always been passionate about physics, I wanted to bring together my technical skills and the foundational concepts I learned in my early education.
 This project started with the idea of ​​visualizing what physics, which I once saw as just formulas, might look like in the real world by using Matplotlib.
+
 By turning thermal diffusion into an interactive canvas, I aimed to make the simulation more playfull. This approach allowed me to explore the artistic potential of numerical methods, while also implementing practical extensions like saving temperature matrices and building a user gallery system using TinyDB and .npy properties
