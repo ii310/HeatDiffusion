@@ -12,6 +12,7 @@ A constant specific to a given fundamental terms, 𝛼 is the thermal diffusivi
 
 By implementing finite difference techniques to discretize the continuous equation, the simulation allows users to interact with the mouse to "transmit energy" (heat) into the system, simulating a localized heat source.
 To find out more visit:
+
 Reference: https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/
 
 # Why I Built This 
